@@ -6,7 +6,7 @@ class ListeningMode:
 
 class AbortReason:
     """中止原因"""
-    NONE = "none"
+    ABORT = "abort"
     WAKE_WORD_DETECTED = "wake_word_detected"
 
 class DeviceState:
@@ -20,11 +20,11 @@ class EventType:
     """事件类型"""
     SCHEDULE_EVENT = "schedule_event"
     AUDIO_INPUT_READY_EVENT = "audio_input_ready_event"
-    AUDIO_OUTPUT_READY_EVENT = "audio_output_ready_event"
 
 class AudioConfig:
     """音频配置"""
-    SAMPLE_RATE = 24000
+    FORMAT = 8
+    SAMPLE_RATE = 16000
     CHANNELS = 1
     FRAME_DURATION = 60  # ms
     FRAME_SIZE = int(SAMPLE_RATE * (FRAME_DURATION / 1000))

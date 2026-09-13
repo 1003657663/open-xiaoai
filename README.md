@@ -1,3 +1,6 @@
+> [!WARNING]
+> 本项目已停止维护，不再提供更新与支持，感谢大家的使用。
+
 # Open-XiaoAI
 
 让小爱音箱「听见你的声音」，解锁无限可能。
@@ -26,9 +29,9 @@
 
 ## 你的声音 + 小爱音箱 = 无限可能
 
-👉 [小爱音箱接入小智 AI 演示视频](https://www.bilibili.com/video/BV1NBXWYSEvX)
+👉 [小爱音箱接入小智 AI 演示视频](https://www.bilibili.com/video/BV1TxJhzvEhz)
 
-[![](./docs/images/xiaozhi.jpg)](https://www.bilibili.com/video/BV1NBXWYSEvX)
+[![](./docs/images/xiaozhi.jpg)](https://www.bilibili.com/video/BV1TxJhzvEhz)
 
 👉 [小爱音箱自定义唤醒词演示视频](https://www.bilibili.com/video/BV1YfVUz5EMj)
 
@@ -52,8 +55,9 @@
    - 👉 [小爱音箱自定义唤醒词](examples/kws/README.md)
    - 👉 [小爱音箱接入 MiGPT（完美版）](examples/migpt/README.md)
    - 👉 [小爱音箱接入 Gemini Live API](examples/gemini/README.md)
+   - 👉 [小爱音箱组立体声（支持不同型号机型）](examples/stereo/README.md)
 
-以上皆为抛砖引玉，你也可以亲手编写自己想要的功能（比如：Airplay、DLNA、开启 DTS 音效等），一切由你定义！
+以上皆为抛砖引玉，你也可以亲手编写自己想要的功能，一切由你定义！
 
 ## 相关项目
 
@@ -89,4 +93,4 @@
 
 ## License
 
-[MIT](LICENSE) License © 2024-PRESENT Del Wang
+MIT License © 2024-PRESENT [Del Wang](https://del.wang)
